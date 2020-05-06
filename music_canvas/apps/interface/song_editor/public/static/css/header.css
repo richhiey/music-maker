@@ -1,0 +1,40 @@
+#header {
+	background-color: black;
+	color: white;
+	height: 9vh;
+	width: 100vw;
+}
+
+.home {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header-name {
+	position: relative;
+	margin: 10px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.settings {
+	float:right;
+	margin:10px;
+}
+
+.MuiIcon-fontSizeLarge {
+	font-size: 3.25rem !important;
+}
+
+.control-bar {
+}
+
+.ai-jam-button {
+	font-size: 30px !important;
+	align: center !important;
+	font-weight:bold !important;
+}
+
+.settings-bar {
+	float:right !important;
+}

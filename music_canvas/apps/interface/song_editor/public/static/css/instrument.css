@@ -1,0 +1,33 @@
+.Instrument {
+	display: block;
+	width: 100%;
+}
+.InstrumentConfig{
+	height: 10vh;
+	background-color: #b9b9c6;
+	display: inline-flex;
+}
+
+.InstrumentTrack{
+	height: 30vh;
+	background-color: #e1e1e1;
+}
+
+.MIDIController{
+	margin:5px;
+	padding:5px;
+}
+
+.InstrumentSelect{
+	margin:5px;
+	padding:5px;
+}
+
+.InstrumentSound{
+	margin:5px;
+	padding:5px;
+	background-color: white; 
+}
+
+.instrument-div 
+}
