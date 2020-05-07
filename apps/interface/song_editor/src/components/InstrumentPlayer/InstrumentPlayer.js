@@ -3,7 +3,6 @@ import {Instrument} from "./Instruments";
 import {AIInstrument} from "./Instruments";
 import Icon from '@material-ui/core/Icon';
 import {InstrumentContext} from '../../store';
-import './InstrumentPlayer.css';
 const core = require('@magenta/music/node/core');
 
 const MAGENTA_CHECKPOINTS_META_URL = 'https://raw.githubusercontent.com/tensorflow/magenta-js/master/music/checkpoints/checkpoints.json';

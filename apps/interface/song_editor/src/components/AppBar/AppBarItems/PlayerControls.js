@@ -34,7 +34,6 @@ import {REQUIRED_NOTES} from '../../Constants'
 import {JAZZ_KIT} from '../../Constants'
 import {SALAMANDER_GRAND_PIANO} from '../../Constants'
 import {DEFAULT_SOUND_CONFIG} from '../../Constants'
-import './AppBarItems.css';
 
 const core = require('@magenta/music/node/core');
 const Tone = core.Player.tone;

@@ -139,3 +139,16 @@
     background-color: rgb(24, 68, 149);
     padding: 10px;
 }
+
+.instrumentButton {
+    margin-right:20px !important;
+    padding: 10px !important;
+}
+
+.instrumentSwitch {
+    padding-top:20px !important;
+}
+
+.trackButton {
+    width: 100%;
+}

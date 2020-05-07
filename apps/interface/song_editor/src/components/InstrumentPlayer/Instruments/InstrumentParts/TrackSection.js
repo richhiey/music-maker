@@ -36,7 +36,6 @@ import {renderChordProgression} from './TrackSectionHelper'
 import {buildVisualizerCanvasId} from './TrackSectionHelper'
 import {processValueForKey} from './TrackSectionHelper'
 
-import '../Instrument.css'
 const core = require('@magenta/music/node/core');
 const Tone = core.Player.tone;
 

@@ -21,7 +21,6 @@ import {AppName}  from './AppBarItems'
 import {MessageBox}  from './AppBarItems'
 import {PlayerControls}  from './AppBarItems'
 import {Settings}  from './AppBarItems'
-import './AppBarItems/AppBarItems.css';
 
 const core = require('@magenta/music/node/core');
 

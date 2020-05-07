@@ -9,7 +9,6 @@ import {InstrumentTrack} from './InstrumentParts';
 import {SGM_INSTRUMENT_NUMBERS} from '../../Constants'
 import {AVAILABLE_PLAYER_MODELS} from '../../Constants'
 
-import './Instrument.css';
 
 
 function AIInstrument(props) {

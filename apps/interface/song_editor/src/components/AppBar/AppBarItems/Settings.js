@@ -11,7 +11,6 @@ import AddCircleIcon from '@material-ui/icons/AddCircle';
 import MenuIcon from '@material-ui/icons/Menu';
 import LoopIcon from '@material-ui/icons/Loop';
 import Drawer from '@material-ui/core/Drawer';
-import './AppBarItems.css';
 
 
 function MessageBox(props) {

@@ -8,7 +8,6 @@ import {CircularSlider} from './InstrumentParts';
 import {InstrumentToolbar} from './InstrumentParts';
 import {InstrumentTrack} from './InstrumentParts';
 
-import './Instrument.css';
 
 
 function Instrument(props) {

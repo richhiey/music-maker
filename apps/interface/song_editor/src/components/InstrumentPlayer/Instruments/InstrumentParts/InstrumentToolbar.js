@@ -5,7 +5,6 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import CloseIcon from '@material-ui/icons/Close';
 import Button from '@material-ui/core/Button';
 import {InstrumentContext} from '../../../../store';
-import './InstrumentParts.css';
 
 function InstrumentToolbar(props) {
     const [instruments, instr_dispatch] = React.useContext(InstrumentContext);
