@@ -18,15 +18,12 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from apps.interface import views as interface_views 
-from apps.api import views as api_views
 from django.conf.urls.static import static
 from django.conf import settings
 
 router = routers.DefaultRouter()
-router.register(r'midi-track', api_views.MIDITrackView, 'midi-track')
 
 urlpatterns = [
 	path('admin/', admin.site.urls),
-	path('api/', include(router.urls)),
 	path('', interface_views.index ),
 ] +  static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

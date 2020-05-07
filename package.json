@@ -6,15 +6,14 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "webpack --mode production ./apps/interface/song_editor/src/index.js --output ./public/static/js/main.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "dev": "webpack --mode development ./apps/interface/song_editor/src/index.js --output ./public/static/js/main.js",
     "post-install": "npm run build"
   },
   "eslintConfig": {
@@ -33,15 +32,26 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
     "@magenta/music": "^1.14.0",
     "@material-ui/core": "^4.9.13",
     "@material-ui/icons": "^4.9.1",
+    "babel-loader": "^8.1.0",
     "classnames": "^2.2.6",
+    "css-loader": "^3.5.3",
     "just-range": "^2.1.0",
     "local-storage": "^2.0.0",
     "lodash": "^4.17.15",
     "lodash.difference": "^4.5.0",
+    "react": "^16.13.1",
     "react-circle-slider": "^1.6.2",
-    "webmidi": "^2.5.1"
+    "react-dom": "^16.13.1",
+    "ts-loader": "^7.0.3",
+    "webmidi": "^2.5.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }

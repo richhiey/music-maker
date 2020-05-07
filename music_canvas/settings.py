@@ -44,8 +44,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
-    'apps.api',
-    'apps.backend',
     'apps.interface'
 ]
 
@@ -65,7 +63,7 @@ ROOT_URLCONF = 'music_canvas.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'apps/interface/frontend/public')],
+        'DIRS': [os.path.join(BASE_DIR, 'public')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -129,7 +127,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'apps/interface/frontend/public/static'),
+    os.path.join(BASE_DIR, 'public/static'),
 )
 
 STATIC_URL = '/static/'

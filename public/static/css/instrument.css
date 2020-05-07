@@ -1,0 +1,141 @@
+.Instrument {
+	display: block;
+	width: 100%;
+}
+.InstrumentConfig{
+	height: 10vh;
+	background-color: #b9b9c6;
+	display: inline-flex;
+}
+
+.InstrumentTrack{
+	height: 30vh;
+	background-color: #e1e1e1;
+}
+
+.MIDIController{
+	margin:5px;
+	padding:5px;
+}
+
+.InstrumentSelect{
+	margin:5px;
+	padding:5px;
+}
+
+.InstrumentSound{
+	margin:5px;
+	padding:5px;
+	background-color: white; 
+}
+
+.instrument-div 
+}
+
+.Instrument {
+	display: block;
+	width: 97%;
+	background-color: whitesmoke;
+	padding: 20px;
+	border: 1px solid rgb(152, 159, 179);
+	color: black !important;
+}
+.InstrumentConfig{
+	height: 10vh;
+	background-color: #b9b9c6;
+	display: inline-flex;
+}
+
+.InstrumentTrack{
+	height: 30vh;
+	background-color: #e1e1e1;
+}
+
+.selector_text {
+	color: black !important;
+}
+.MIDIController{
+	margin:5px;
+	padding:5px;
+}
+
+.InstrumentSelect{
+	margin:5px;
+	padding:5px;
+}
+
+.InstrumentSound{
+	margin:5px;
+	padding:5px;
+	background-color: white; 
+}
+
+.trackSection {
+	display: inline-block;
+    background-color: grey;
+    color: white !important;
+    padding: 0px;
+    margin-left:7px;
+    margin-top: 7px;
+    border-radius: 5px;
+}
+
+.trackSection:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+.trackSectionForm {
+	display: none !important;
+	position: relative;
+	padding: 1vh;
+}
+
+.trackSection:hover .trackSectionForm {
+	display: block !important;
+}
+
+.trackSectionForm:hover {
+	display: block;	
+	background-color: #2f3d8c;
+	overflow-y: auto;
+} 
+
+.addSection {
+	display: inline-block;
+}
+
+.visualizerCanvas {
+	width: 70vw;
+	overflow-y: auto;
+	border: 1px solid black;
+	background-color: white; 
+}
+
+.drumTrackButton {
+	min-width: 40px !important;
+	min-height: 25px;
+	margin: 3px !important;
+	border: 1px solid black !important;
+}
+.MuiExpansionPanelDetails-root {
+	display:block !important;
+}
+
+.trackSectionPlayerControl {
+	padding: 5px;
+	margin: 5px;
+}
+
+.sequenceBlocks {
+	overflow-y: auto !important;
+}
+
+.MuiFormLabel-root {
+	color:white !important;
+}
+
+.Instruments {
+    background-color: rgb(24, 68, 149);
+    padding: 10px;
+}
