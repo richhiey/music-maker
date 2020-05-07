@@ -28,7 +28,7 @@ SECRET_KEY = 'tl!-=pb8x3*%xpr_ur^7#)@s8bk!_3yozir*@*tp%j4((4z*q6'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-'react-django.herokuapp.com',
+'ai-music-maker.herokuapp.com',
 '127.0.0.1'
 ]
 
