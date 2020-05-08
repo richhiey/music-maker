@@ -155,6 +155,15 @@ function PlayerControls() {
 
     return (
         <div>
+        <Button
+          ref={anchorRef}
+          aria-controls={open ? 'menu-list-grow' : undefined}
+          aria-haspopup="true"
+          onClick={handleToggle}
+          className='addInstrument'
+        >
+          Add Instrument
+        </Button>
             <FormControl className='tempoSelector'>
                 <Input
                     id="tempo"
@@ -165,14 +174,6 @@ function PlayerControls() {
                 />
             </FormControl>
 
-        <Button
-          ref={anchorRef}
-          aria-controls={open ? 'menu-list-grow' : undefined}
-          aria-haspopup="true"
-          onClick={handleToggle}
-        >
-          Add Instrument
-        </Button>
         <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition>
           {({ TransitionProps, placement }) => (
             <Grow

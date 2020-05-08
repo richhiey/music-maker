@@ -36,13 +36,10 @@ function Header() {
             <AppBar position="static">
                 <Toolbar>
                     <Grid container spacing={1}>
-                        <Grid container item xs={2}>
+                        <Grid container item xs={8}>
                             <AppName/>
                         </Grid>
                         <Grid container item xs={4}>
-                            <MessageBox app_message='Start using message box ...'/>
-                        </Grid>
-                        <Grid container item xs={6}>
                             <PlayerControls/>
                             <Settings/>
                         </Grid>
