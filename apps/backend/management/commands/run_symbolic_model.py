@@ -1,0 +1,1 @@
+# Command for running a symbolic model according to provided config
