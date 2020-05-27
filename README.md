@@ -7,6 +7,7 @@ You can find the deployed application here - http://ai-music-maker.herokuapp.com
 ## Models implemented in the backend
 
 SING - https://engineering.fb.com/ai-research/sing/
+
 Demucs - https://github.com/facebookresearch/demucs
 
 This project is currently under development! If you would like to contribute, feel free to open a PR. :)
