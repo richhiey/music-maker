@@ -4,7 +4,7 @@ This project is an experiment to try out different kinds of deep learning models
 
 You can find the deployed application here - http://ai-music-maker.herokuapp.com/
 
-## Models implemented in the backend
+## Models to be implemented in the backend
 
 SING - https://engineering.fb.com/ai-research/sing/
 
