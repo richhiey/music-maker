@@ -44,7 +44,7 @@
     "css-loader": "^3.5.3",
     "just-range": "^2.1.0",
     "local-storage": "^2.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "lodash.difference": "^4.5.0",
     "react": "^16.13.1",
     "react-circle-slider": "^1.6.2",
