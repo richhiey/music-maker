@@ -4,10 +4,4 @@ This project is an experiment to try out different kinds of deep learning models
 
 You can find the deployed application here - https://ai-music-maker.herokuapp.com/
 
-## Models to be implemented in the backend
-
-SING - https://engineering.fb.com/ai-research/sing/
-
-Demucs - https://github.com/facebookresearch/demucs
-
-This project is currently under development!!
+This project is currently under development, so its pretty buggy. I will try working on it in my spare time.
